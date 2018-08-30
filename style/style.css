@@ -1,0 +1,125 @@
+* { font-family: Helvetica, Verdana,sans-serif; }
+.margin_all{
+    margin-left: 10%; /*отступ слева на всей странице */
+    margin-right: 10%;/*отступ справа на всей странице */
+    height: 100%;
+}
+body,html,.margin_all,.container{
+    height: 100%; /*задаю высоту, чтобы мог растянуть див по высоте*/
+
+}
+.head{
+    width: 1000px; /*ширина серого блока*/
+    height: 110px;/*высота блока*/
+    border: 1px solid; /*границы блока 1 px*/
+    background: #cccccc; /*серый бекграунд*/
+    font-size: 10px ;/*размер текста*/
+}
+
+.head>h3, .head>h1{
+    color: gray; /*цвет заголовков*/
+    font-weight: normal;/*убераю жирность текста*/
+    margin: 0; /*убрать все отступы*/
+
+}
+.head h1{
+    margin-top: 10px; /*отступ заголовка 1, сверху */
+}
+.white{
+    width: 75px; /*ширина белого квадрата*/
+    height: 75px; /*высота квадрата*/
+    background-color: #ffffff;/*цвет квадрата*/
+    float: left; /* позиционирование вадрата слева+обтекание*/
+    margin: 10px ; /* отступы от контейнера head по 10px во все стороны*/
+}
+
+.menu{
+    width: 1002px; /*ширина меню*/
+    height: 35px;/*высота меню*/
+    background: #383838; /* бекграунд черный*/
+    margin: 0; /*отступы меню =0*/
+    list-style-type: none; /*убрать маркеры в списке*/
+    margin-left: 0; /* Отступ слева опера   ИЕ */
+    padding-left: 0;/*отступ слева в хром, сафари, файрфокс*/
+}
+
+.menu li{
+    float:left; /*делаем вертикальный список*/
+    padding: 10px 15px 0px 15px; /*отступы внутри от "стен" меню*/
+
+}
+
+a{
+    text-decoration: none; /*убираем подчеркивание*/
+    text-align: center; /*выровнять текст по средине*/
+    color: #cccccc; /*цвет ссылки(белый)*/
+
+}
+
+li:hover{
+    background-color: white;/*при наведении на cписок она стает белой*/
+    height: 100%; /*вся высота стает белой*/
+}
+
+a:hover{
+
+    color: black; /*при наведении курсора на ссылку, цвет ссылки - черный*/
+}
+
+.menu-left{
+    background: #cccccc; /*цвет левого меню*/
+    float: left; /*выравнивание + обтекание текста*/
+    height: 70%;/*высота "пустого" блока */
+}
+
+.menu-list{
+    background: #383838; /*бекграунд левого меню серый*/
+    margin-top: 10px; /*отступы*/
+    margin-left: 10px;/*отступы*/
+    margin-right: 10px;/*отступы*/
+     line-height: 30px;/*растояние между списками*/
+    text-align: center;
+    list-style-type: none; /*убрать маркеры в списке*/
+    padding: 0;/*отступ слева*/
+    color: white;
+
+}
+.menu-list li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu-list li:hover{ /*при наведении на список...*/
+    background: white; /*цвет списка белый*/
+    text-decoration: underline; /*подчеркивание списка*/
+    color: black;
+
+}
+
+
+.conteiner-information>h2{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.conteiner-information h2, .conteiner-information h3{
+    font-weight: normal;
+}
+
+.conteiner-information{
+    margin-left: 250px;
+    margin-right: 100px;
+    width: 800px;
+}
+
+.footer{
+    margin-top: -17.7%;
+
+}
+
+.foot_background{
+    background: #383838;
+    height: 22px;
+    width: 1002px
+
+}
+
