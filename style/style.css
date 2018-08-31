@@ -1,12 +1,12 @@
 * { font-family: Helvetica, Verdana,sans-serif; }
-.margin_all{
-    margin-left: 10%; /*отступ слева на всей странице */
-    margin-right: 10%;/*отступ справа на всей странице */
-    height: 100%;
-}
-body,html,.margin_all,.container{
-    height: 100%; /*задаю высоту, чтобы мог растянуть див по высоте*/
+body{
+     margin-left: 10%; /*отступ слева на всей странице */
+     margin-right: 10%;/*отступ справа на всей странице */
+     height: 100%;
 
+ }
+.container,html{
+    height: 80%;
 }
 .head{
     width: 1000px; /*ширина серого блока*/
@@ -41,6 +41,8 @@ body,html,.margin_all,.container{
     list-style-type: none; /*убрать маркеры в списке*/
     margin-left: 0; /* Отступ слева опера   ИЕ */
     padding-left: 0;/*отступ слева в хром, сафари, файрфокс*/
+    color: #cccccc;
+
 }
 
 .menu li{
@@ -52,24 +54,26 @@ body,html,.margin_all,.container{
 a{
     text-decoration: none; /*убираем подчеркивание*/
     text-align: center; /*выровнять текст по средине*/
-    color: #cccccc; /*цвет ссылки(белый)*/
+    color: #cccccc;
 
 }
 
-li:hover{
-    background-color: white;/*при наведении на cписок она стает белой*/
+
+.head-menu-list:hover {
+
+    background: white;/*при наведении на cписок она стает белой*/
     height: 100%; /*вся высота стает белой*/
+    cursor: pointer;
+}
+.head-menu-list:hover a{
+    color: black;
 }
 
-a:hover{
-
-    color: black; /*при наведении курсора на ссылку, цвет ссылки - черный*/
-}
 
 .menu-left{
     background: #cccccc; /*цвет левого меню*/
     float: left; /*выравнивание + обтекание текста*/
-    height: 70%;/*высота "пустого" блока */
+    height: 100%;/*высота "пустого" блока */
 }
 
 .menu-list{
@@ -93,6 +97,7 @@ a:hover{
     background: white; /*цвет списка белый*/
     text-decoration: underline; /*подчеркивание списка*/
     color: black;
+    cursor: pointer;
 
 }
 
@@ -108,11 +113,6 @@ a:hover{
 .conteiner-information{
     margin-left: 250px;
     width: 750px;
-}
-
-.footer{
-    margin-top: -17.7%;
-
 }
 
 .foot_background{
