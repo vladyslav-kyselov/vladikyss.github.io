@@ -32,7 +32,9 @@ body{
     float: left; /* позиционирование вадрата слева+обтекание*/
     margin: 10px ; /* отступы от контейнера head по 10px во все стороны*/
 }
-
+.header{
+    height: 30.5%;
+}
 .menu{
     width: 1002px; /*ширина меню*/
     height: 35px;/*высота меню*/
@@ -42,18 +44,19 @@ body{
     margin-left: 0; /* Отступ слева опера   ИЕ */
     padding-left: 0;/*отступ слева в хром, сафари, файрфокс*/
     color: #cccccc;
-
+    height: auto ;
 }
 
-.menu li{
-    float:left; /*делаем вертикальный список*/
-    padding: 10px 15px 0px 15px; /*отступы внутри от "стен" меню*/
-
+.head-menu-list{
+    display: inline-block;
+    text-align: center;
+    width: 105px;
+    padding: 10px 0;
 }
 
-a{
+.href-head-menu{
     text-decoration: none; /*убираем подчеркивание*/
-    text-align: center; /*выровнять текст по средине*/
+
     color: #cccccc;
 
 }
@@ -62,10 +65,9 @@ a{
 .head-menu-list:hover {
 
     background: white;/*при наведении на cписок она стает белой*/
-    height: 100%; /*вся высота стает белой*/
     cursor: pointer;
 }
-.head-menu-list:hover a{
+.head-menu-list:hover .href-head-menu{
     color: black;
 }
 
