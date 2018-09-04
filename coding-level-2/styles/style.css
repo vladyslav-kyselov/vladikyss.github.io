@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.no-list-style {
+    list-style-type: none;
+}
+
+.no-dec-link {
+    text-decoration: none;
+}
+
+.black-color-link{
+    color: black;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px;
+    margin-top: 0;
+    padding-top: 25px;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+.wrapper-logo:first-child{
+    margin-right: auto;
+}
+
+.wrapper-menu{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.delete-underline-hover:hover {
+    text-decoration: none;
+}
+
+.img-logo{
+    width: 174px;
+    height: 43px;
+}
+
+.line {
+    border-left: 1px solid #ccc; /* Параметры линии */
+    margin-left: 10px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */
+    height: 11px;
+    border-color: #009fd3;
+}
+
+.all-page{
+    background-color: #d0d0d0;
+}
+
+.background-head-image, .header,.main{
+    width:952px;
+    background: white;
+}
+
+
+
+.background-head-image{
+    position: relative;
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 108px;
+}
+
+.border{
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #a3bed4;
+}
+
+.text-background{
+    position: absolute;
+    top: 42px;
+    left: 128px;
+    width: 300px;
+    font-family: "Myriad Pro", Arial, "Times New Roman";
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.menu-head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 222px;
+    height: 31px;
+    margin-top: 106px;
+    background: linear-gradient(to top right,#c1c2e3 , white);
+    border-bottom: 4px solid #a3a6d4;
+    font-family: "Myriad Pro";
+    Font-size: 14px;
+    color: #0b4367;
+}
+
+
+.li-menu{
+    padding: 0px 15px 0px 15px ;
+    height: 21px;
+    padding-top: 10px;
+    
+}
+.menu-head{
+    position: relative;
+    background: linear-gradient(to top, #c2c4e4, #f0f0f9);
+}
+.drop-down{
+    display: none;
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 11px;
+    background: #9fcee0;
+    margin-left: -15px;
+    margin-top: 3px;
+    height:  auto;
+}
+
+.href-drop-down{
+    color: #0b4367;
+}
+
+.href-menu-head{
+    color: #0b4367;
+}
+
+.li-menu:hover{
+    background: linear-gradient(to top, #3e83ab, #bedde9);
+    cursor: pointer;
+}
+
+.li-menu:hover .href-menu-head{
+    color: white;
+}
+
+.li-drop-down{
+    display: inline-block;
+    text-align: left;
+    width: 173px;
+    padding: 10px 0 10px 10px;
+}
+
+.li-drop-down:hover {
+    background: #256893;
+    cursor: pointer;
+}
+.li-drop-down:hover .href-drop-down{
+    color: white;
+}
+
+.li-menu:hover .drop-down{
+    display: block;
+}
+
+
+.li-menu:hover .li-drop-down{
+    display: block;
+}
+.arrow{
+    color: #000;
+}
+
+.left-sidebar{
+    background: #e7e6ef;
+    width: 222px;
+    height: 730px;
+}
+
+.top-left-menu{
+    background: #7371b1;
+    width: 222px;
+    height: 31px;
+}
+
+.top-left-menu-name{
+    width: auto;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 25px;
+    margin-right: 0;
+    color: white;
+}
+
+.left-menu{
+    list-style-image: url("../img/left-menu-marker-exchange.png");
+    line-height: 17px;
+    background-color: transparent;
+    margin-left: 30px;
+    font-family: Tahoma, Arial, "Times New Roman";
+    font-size: 12px;
+}
+
+.exchange-marker:hover  {
+    list-style-image: url("../img/left-menu-marker.png");
+}
+
+.main{
+    display: flex;
+}
+
+.right-content{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.right-menu{
+    display: flex;
+    margin-top: 12px;
+}
+
+.right-menu-element{
+
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Tahoma, Arial, "Times New Roman";
+    font-size: 11px;
+}
+
+.arrow{
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+
+.img-right-menu{
+    float: left;
+    width: 150px;
+    height: 180px;
+}
+
+.bottom-right-menu{
+    display: flex;
+}
+
+.name-page{
+    font-family: "Myriad Pro", Arial, "Times New Roman";
+    font-size: 24px;
+    color: #1d5c85;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+
+.caption-1{
+    font-size: 17px;
+    font-family: Tahoma, Arial, "Times New Roman";
+    color: #64639b;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img-right-menu{
+    margin-top: 10px;
+    margin-right: 25px;
+
+}
+
+.text-1, .text-2{
+    font-family: Verdana,Arial,"Times New Roman";
+    font-size: 12px;
+    font-weight: normal ;
+
+}
+
+.text-1-p1{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width:  473px;
+    margin-left: 177px;
+}
+
+.text-1-p2{
+    margin-bottom: 30px;
+    width:  473px;
+    margin-left: 177px;
+}
+
+.text-1-p3{
+    width:  648px;
+}
+
+.text-2-p1{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width:  473px;
+    margin-left: 177px;
+}
+
+.text-2-p2{
+    margin-bottom: 30px;
+    width:  473px;
+    margin-left: 177px;
+}
+
+.text-2-p3{
+    margin-bottom: 40px;
+}
+
+.information-about-people{
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.bottom-menu{
+    font-family: Tahoma, Arial, "Times New Roman";
+    font-size: 11px;
+    margin-top: 22px;
+    margin-bottom: 14px;
+}
+
+.footer{
+    background: #7371b1;
+    width: 952px;
+    height: 80px;
+}
+
+.copyright{
+    margin-top: 17px;
+    margin-left: 25px;
+    float: left;
+    color: white;
+    font-family: Tahoma, Arial, "Times New Roman";
+    font-size: 11px;
+
+}
+
+.logo-bottom{
+    margin-top: 23px;
+    float: right;
+    margin-right: 25px;
+}
