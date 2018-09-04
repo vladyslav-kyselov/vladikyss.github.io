@@ -7,7 +7,7 @@ body{
 
  }
 .container,html{
-    height: 80%;
+    height: 520px;
 }
 .head{
     width: 1000px; /*ширина серого блока*/
@@ -17,13 +17,13 @@ body{
     font-size: 10px ;/*размер текста*/
 }
 
-.head>h3, .head>h1{
+.head-text-h3, .head-text-h1{
     color: gray; /*цвет заголовков*/
     font-weight: normal;/*убераю жирность текста*/
     margin: 0; /*убрать все отступы*/
 
 }
-.head h1{
+.head-text-h1{
     margin-top: 10px; /*отступ заголовка 1, сверху */
 }
 .white{
@@ -34,7 +34,7 @@ body{
     margin: 10px ; /* отступы от контейнера head по 10px во все стороны*/
 }
 .header{
-    height: 30.5%;
+
 
 }
 .menu{
@@ -77,7 +77,7 @@ body{
 .menu-left{
     background: #cccccc; /*цвет левого меню*/
     float: left; /*выравнивание + обтекание текста*/
-    height: 100%;/*высота "пустого" блока */
+    height: 520px;/*высота "пустого" блока */
 }
 
 .menu-list{
@@ -92,12 +92,12 @@ body{
     color: white;
 
 }
-.menu-list li{
+.menu-list-left {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.menu-list li:hover{ /*при наведении на список...*/
+.menu-list-left:hover{ /*при наведении на список...*/
     background: white; /*цвет списка белый*/
     text-decoration: underline; /*подчеркивание списка*/
     color: black;
@@ -106,11 +106,11 @@ body{
 }
 
 
-.conteiner-information>h2{
+.conteiner-information-caption-h2{
     margin-bottom: 5px;
     margin-top: 10px;
 }
-.conteiner-information h2, .conteiner-information h3{
+.conteiner-information-caption-h2, .conteiner-information-caption-h3{
     font-weight: normal;
 }
 
