@@ -20,11 +20,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 25px;
-    margin-top: 0;
     padding-top: 25px;
     align-items: flex-start;
-    margin-bottom: 0;
+    margin: 0 25px;
 }
 
 .wrapper-logo:first-child{
@@ -57,14 +55,14 @@
 
 .all-page{
     background-color: #d0d0d0;
+    width: 100%;
 }
 
 .background-head-image, .header,.main{
     width:952px;
     background: white;
+    margin: 0 auto;
 }
-
-
 
 .background-head-image{
     position: relative;
@@ -86,7 +84,7 @@
     position: absolute;
     top: 42px;
     left: 128px;
-    width: 300px;
+    width: 824px;
     font-family: "Myriad Pro", Arial, "Times New Roman";
     color: white;
     font-style: italic;
@@ -103,24 +101,22 @@
     padding-left: 222px;
     height: 31px;
     margin-top: 106px;
-    background: linear-gradient(to top right,#c1c2e3 , white);
+    position: relative;
+    background: linear-gradient(to top, #c2c4e4, #f0f0f9);
     border-bottom: 4px solid #a3a6d4;
     font-family: "Myriad Pro";
     Font-size: 14px;
     color: #0b4367;
+    width: auto;
 }
 
 
 .li-menu{
-    padding: 0px 15px 0px 15px ;
     height: 21px;
-    padding-top: 10px;
-    
+    padding: 10px 15px 0px;
+    width: auto;
 }
-.menu-head{
-    position: relative;
-    background: linear-gradient(to top, #c2c4e4, #f0f0f9);
-}
+
 .drop-down{
     display: none;
     position: absolute;
@@ -128,7 +124,8 @@
     font-size: 11px;
     background: #9fcee0;
     margin-left: -15px;
-    margin-top: 3px;
+    margin-top: 7px;
+    width: auto;
     height:  auto;
 }
 
@@ -147,6 +144,7 @@
 
 .li-menu:hover .href-menu-head{
     color: white;
+
 }
 
 .li-drop-down{
@@ -202,9 +200,13 @@
     list-style-image: url("../img/left-menu-marker-exchange.png");
     line-height: 17px;
     background-color: transparent;
-    margin-left: 30px;
+    margin-left: 35px;
     font-family: Tahoma, Arial, "Times New Roman";
     font-size: 12px;
+}
+
+.exchange-marker{
+    margin-top: 10px;
 }
 
 .exchange-marker:hover  {
@@ -226,7 +228,6 @@
 }
 
 .right-menu-element{
-
     margin-right: 5px;
     margin-left: 5px;
     font-family: Tahoma, Arial, "Times New Roman";
@@ -255,66 +256,40 @@
     color: #1d5c85;
     margin-bottom: 15px;
     margin-top:15px;
+    font-weight: normal ;
 }
 
-.caption-1{
+.caption-author{
     font-size: 17px;
     font-family: Tahoma, Arial, "Times New Roman";
     color: #64639b;
     margin-top: 30px;
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 .img-right-menu{
     margin-top: 10px;
     margin-right: 25px;
-
 }
 
-.text-1, .text-2{
+.text-about-author{
     font-family: Verdana,Arial,"Times New Roman";
     font-size: 12px;
     font-weight: normal ;
-
 }
 
-.text-1-p1{
+.about-author{
     margin-top: 25px;
     margin-bottom: 30px;
-    width:  473px;
-    margin-left: 177px;
-}
-
-.text-1-p2{
-    margin-bottom: 30px;
-    width:  473px;
-    margin-left: 177px;
-}
-
-.text-1-p3{
     width:  648px;
 }
 
-.text-2-p1{
-    margin-top: 25px;
-    margin-bottom: 30px;
-    width:  473px;
-    margin-left: 177px;
-}
-
-.text-2-p2{
-    margin-bottom: 30px;
-    width:  473px;
-    margin-left: 177px;
-}
-
-.text-2-p3{
-    margin-bottom: 40px;
-}
 
 .information-about-people{
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
+    width:  648px;
 }
 
 .bottom-menu{
@@ -328,6 +303,7 @@
     background: #7371b1;
     width: 952px;
     height: 80px;
+    margin: 0 auto;
 }
 
 .copyright{
@@ -337,7 +313,6 @@
     color: white;
     font-family: Tahoma, Arial, "Times New Roman";
     font-size: 11px;
-
 }
 
 .logo-bottom{
