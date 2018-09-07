@@ -15,6 +15,16 @@
     color: black;
 }
 
+@font-face {
+    font-family: 'Myriad Pro Semibold';
+    src: url('../fonts/MyriadPro-Semibold.eot');
+    src: url('../fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Semibold.woff') format('woff'),
+    url('../fonts/MyriadPro-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .wrapper{
     display: flex;
     flex-direction: row;
@@ -34,6 +44,16 @@
     margin-left: 20px;
     font-family: Tahoma;
     font-size: 11px;
+    border-right: 1px solid #ccc; /* Параметры линии */
+    margin-left: 10px; /* Отступ слева */
+    padding-right: 10px; /* Расстояние от линии до текста */
+    height: 13px;
+    border-color: #009fd3;
+}
+.wrapper-menu:last-child{
+    border-right: none; /* Параметры линии */
+    margin-right: 0; /* Отступ слева */
+    padding-right: 0; /* Расстояние от линии до текста */
 }
 
 .delete-underline-hover:hover {
@@ -45,14 +65,6 @@
     height: 43px;
 }
 
-.line {
-    border-left: 1px solid #ccc; /* Параметры линии */
-    margin-left: 10px; /* Отступ слева */
-    padding-left: 10px; /* Расстояние от линии до текста */
-    height: 11px;
-    border-color: #009fd3;
-}
-
 .all-page{
     background-color: #d0d0d0;
     width: 100%;
@@ -62,6 +74,10 @@
     width:952px;
     background: white;
     margin: 0 auto;
+}
+
+.menu{
+    width: 730px;
 }
 
 .background-head-image{
@@ -85,50 +101,42 @@
     top: 42px;
     left: 128px;
     width: 824px;
-    font-family: "Myriad Pro", Arial, "Times New Roman";
+    font-family: 'Myriad Pro Semibold', Arial, "Times New Roman";
     color: white;
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
 }
 
-
-
 .menu-head{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     padding-left: 222px;
     height: 31px;
     margin-top: 106px;
-    position: relative;
+    position: relative ;
     background: linear-gradient(to top, #c2c4e4, #f0f0f9);
     border-bottom: 4px solid #a3a6d4;
-    font-family: "Myriad Pro";
+    font-family: 'Myriad Pro Semibold', Arial, "Times New Roman";
     Font-size: 14px;
     color: #0b4367;
-    width: auto;
+    width: 100%;
 }
 
-
 .li-menu{
+    position: relative;
     height: 21px;
-    padding: 10px 15px 0px;
+    padding: 10px 15px 0;
     width: auto;
 }
 
 .drop-down{
-    display: none;
+    left: 0;
+    right: 0;
     position: absolute;
     font-family: Tahoma;
     font-size: 11px;
     background: #9fcee0;
-    margin-top: 4px;
-    width: auto;
-    height:  auto;
-    border-top: 4px solid;
-    align-items: center;
-    margin-left: -15px;
+    margin-top: 4.2px;
 }
 
 .href-drop-down{
@@ -137,6 +145,8 @@
 
 .href-menu-head{
     color: #0b4367;
+    display: block;
+    text-align: center;
 }
 
 .li-menu:hover{
@@ -150,30 +160,29 @@
 }
 
 .li-drop-down{
-    display: inline-block;
-    text-align: left;
-    width: 173px;
+    display: none;
     padding: 10px 0 10px 10px;
 }
 
 .li-drop-down:hover {
     background: #256893;
     cursor: pointer;
+
 }
 .li-drop-down:hover .href-drop-down{
     color: white;
-}
+    position: relative;
 
-.li-menu:hover .drop-down{
-    display: block;
 }
-
 
 .li-menu:hover .li-drop-down{
     display: block;
+    position: relative;
 }
+
 .arrow{
-    color: #000;
+    padding: 0;
+    margin-bottom: 3px;
 }
 
 .left-sidebar{
@@ -190,7 +199,7 @@
 
 .top-left-menu-name{
     width: auto;
-    font-family: "Myriad Pro";
+    font-family: 'Myriad Pro Semibold',Arial,"Times New Roman";
     font-size: 18px;
     padding-top: 5px;
     padding-left: 25px;
@@ -236,12 +245,6 @@
     font-size: 11px;
 }
 
-.arrow{
-    padding: 0;
-    margin-bottom: 5px;
-}
-
-
 .img-right-menu{
     float: left;
     width: 150px;
@@ -253,7 +256,7 @@
 }
 
 .name-page{
-    font-family: "Myriad Pro", Arial, "Times New Roman";
+    font-family: 'Myriad Pro Semibold', Arial, "Times New Roman";
     font-size: 24px;
     color: #1d5c85;
     margin-bottom: 15px;
@@ -315,6 +318,10 @@
     color: white;
     font-family: Tahoma, Arial, "Times New Roman";
     font-size: 11px;
+}
+
+.white-link-in-tel-and-mail{
+    color: white;
 }
 
 .logo-bottom{
