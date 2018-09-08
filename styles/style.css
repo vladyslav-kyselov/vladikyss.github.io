@@ -275,6 +275,17 @@
     display: flex;
 }
 
+.bottom-menu:after{
+    content: "|";
+    color: #009fd3;
+    margin-left: 10px; /* Отступ слева */
+    margin-right: 10px; /* Расстояние от линии до текста */
+}
+
+.bottom-menu:last-child:after{
+    content: '';
+}
+
 .name-page{
     font-family: 'Myriad Pro Semibold', Arial, "Times New Roman";
     font-size: 24px;
