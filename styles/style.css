@@ -141,12 +141,10 @@
     font-size: 11px;
     background: #9fcee0;
     margin-top: 4px;
-
-
 }
 
 .li-menu:hover .drop-down{
-    border-top: 3px solid #0b4367;
+    border-top: 4px solid #0b4367;
 }
 
 .href-drop-down{
