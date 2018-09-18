@@ -1,18 +1,10 @@
-*{
+﻿*{
     margin: 0;
     padding: 0;
 }
 /*заготовки*/
 .no-dec-link{
     text-decoration: none;
-}
-
-.black-color-link{
-    color: black;
-}
-
-.no-list-style{
-    list-style-type: none;
 }
 
 /*основна частина*/
@@ -32,7 +24,7 @@
 .header-content{
     position: absolute;
     margin-top:  26px;
-   margin-left: 75px;
+    margin-left: 75px;
     width:1000px;
     height: 57px;
     background: url("../img/header.png");
@@ -186,6 +178,9 @@ input[type="text"]::-moz-placeholder {
 
 .right-icon{
     margin-top: 10px;
+    width: 32px ;
+    height: 26px;
+    background: url("../img/right-top-icon.png");
 }
 
 .advertising{
@@ -240,33 +235,37 @@ input[type="text"]::-moz-placeholder {
     font-family: Arial,"Times New Roman",sans-serif;
     font-size: 12px;
     cursor: pointer;
+    background: #e7e4e3;
+
 
 }
 
 .li-menu-navigation-community{
-    border-bottom: 1px solid #c5c2c1;
     width: 100%;
     text-align: center;
     padding-top: 10px ;
-    background: #e7e4e3;
+    border-bottom: 1px solid #c5c2c1;
     border-right: 1px solid #e7e4e3;
     border-left: 1px solid #e7e4e3;
 }
 
-.li-menu-navigation-community:first-child{
-    content: '';
+.active{
     background: #f5f5f5;
     border-bottom: 0;
     border-right: 1px solid #c5c2c1;
     font-weight: bold;
 }
 
-.link-menu-navigation,.link-menu-community{
-    color: #303030;
+.li-menu-navigation-community:hover .menu{
+    display: block;
 }
 
-.drop-down-menu{
+.link-menu-navigation,.link-menu-community{
+    color: #303030;
 
+}
+
+.submenu{
     position: absolute;
     width: 265px;
     margin-top: 15px;
@@ -335,10 +334,33 @@ border-bottom: none;
     font-size: 13px;
 }
 
-.twitter-icon, .about-icon{
+.twitter-icon,.about-icon,.heart-icon,.writte-icon{
     float: left;
-
     margin-right: 10px;
+}
+
+.twitter-icon{
+    height: 26px;
+    width:32px;
+    background: url("../img/Twitter-Icons.png");
+}
+
+.about-icon{
+    width: 32px;
+    height: 27px;
+    background: url("../img/Icon-About.png");
+}
+
+.writte-icon{
+    width:31px ;
+    height: 30px;
+    background: url("../img/Icon-write.png");
+}
+
+.heart-icon{
+    width:32px ;
+    height: 30px;
+    background: url("../img/Icon-heart.png");
 }
 
 .footer-caption{
