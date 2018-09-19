@@ -1,0 +1,42 @@
+.main{
+    padding-top:  20px;
+    padding-bottom: 10px;
+
+}
+
+.block-drink{
+    margin-top: 5px;
+    margin-left: 35px;
+    width: 365px;
+    height: 73px;
+    background: url("../img/background-drink.png") no-repeat;
+    padding-right: 15px;
+}
+
+.image{
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right:15px;
+}
+
+.caption-drink{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 2px;
+    margin-bottom: 6px;
+    color: #555249;
+}
+
+.text-about-drink{
+    font-family: Tahoma;
+    font-size: 9px;
+    line-height: 12px;
+    color: #746e5c;
+}
+
+.bold{
+    font-weight: bold;
+    color: #746d5b;
+}

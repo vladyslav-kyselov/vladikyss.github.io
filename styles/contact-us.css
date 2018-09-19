@@ -1,0 +1,155 @@
+.content{
+    display: flex;
+    width: 350px;
+    height: 320px;
+    margin-top: 30px;
+    margin-left: 40px   ;
+}
+
+.left-content{
+    width: 130px;
+    height: 320px ;
+    margin-right: 25px;
+}
+
+.right-content{
+    width: 195px;
+    height: 320px;
+    font-family: Tahoma;
+    font-size: 9px;
+    color: #7a776f;
+    line-height: 12px;
+}
+
+.text-bottom-pizza{
+    margin-top: 15px;
+    font-family: Tahoma;
+    font-size: 9px;
+    color: #7a776f;
+    line-height: 12px;
+    margin-bottom: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.href-bottom-pizza{
+    color: #7a776f;
+    font-family: Tahoma;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+.want-more{
+    margin-top: 20px;
+    font-family: Tahoma;
+    font-size: 9px;
+    line-height: 15px;
+    color: #7a776f;
+}
+
+
+/*right*/
+.right-top-caption{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #585652;
+}
+
+.tollfree-office-fax{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.number-contact{
+    text-decoration: none;
+    color: #7a776f;
+    font-size: 9px;
+}
+
+.margin-top15{
+    margin-top: 15px;
+}
+
+.email{
+    text-decoration: none;
+    color: #7a776f;
+    font-size: 9px;
+    margin-bottom: 25px;
+}
+
+.contact-form-caption{
+    font-size: 12px;
+}
+
+.contact-form{
+    width: 200px;
+    height: 95px;
+}
+
+.name-email{
+    display: flex;
+}
+
+.input-email,.input-name{
+    width: 90px;
+    line-height: 16px;
+    margin-right: 3px;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+    font-size: 10px;
+    border: none;
+    background: url("../img/input-name-mail.png") no-repeat;
+}
+
+.input-comments{
+    width: 190px;
+    height: 64px;
+    border:none;
+    background: url("../img/input-comments.png") no-repeat;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    resize: none;
+}
+
+.submit-reset{
+    float: right;
+}
+
+.submit-button,.reset-button{
+    border: none;
+    background: url("../img/submit-reset.png") no-repeat;
+    width: 61px;
+    height: 17px;
+    color: #696761;
+    margin-right: 7px;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.fast-pizza-footer{
+    background: url("../img/background-number.png") no-repeat;
+    width: 380px;
+    height: 54px;
+    margin-left: 26px;
+    margin-top: 15px;
+    padding-top:10px
+}
+
+.number {
+    float: right;
+    width: 136px;
+    height: 20px;
+    margin-right: 10px;
+}
