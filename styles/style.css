@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: Romula;
+    src:url("../fonts/Romul.ttf");
+}
 @font-face {
     font-family: Academy;
     src:url("../fonts/academy.ttf");
@@ -8,28 +13,58 @@
 }
 
 .body{
-    background-image: url("../img/background-body.png");
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%;
+    background: url("../img/background-body.png") repeat;
 }
 
 .wrapper-all-page{
     background: url("../img/backgound-wrapper.png") no-repeat;
     width: 664px;
-    height: 560px;
-    margin: 10px auto 0;
-    padding-top: 110px;
-    margin-bottom: 10px;
+    height: 590px;
+     margin: 10px auto;
+    padding-top: 75px;
+}
+
+.background-bottom-caption-pizza-house{
+    background: url("../img/background-wrapper.png");
+    width:542px;
+    height:456px;
+    margin: 0 auto;
+    margin-top: 64px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #979378;
+}
+
+.caption-pizza-house{
+    width:203px ;
+    height: 30px;
+    font-size: 26px;
+    font-family: Romula;
+    background: linear-gradient(#f1eee2,#caba8e);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-left: 230px;
+}
+
+.only-perfect-pizza{
+    font-family: Academy;
+    font-size: 10px;
+    background: linear-gradient(#f1eee2,#caba8e);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-left: 270px;
+
 }
 
 .wrapper-head-main{
     background: url("../img/background-head-main.png") no-repeat;
     width: 420px;
-    height: auto;
-    margin: inherit;
+    margin: 0 auto;
     padding-top: 27px;
+    margin-top: -60px;
 }
 
 .menu-head{
@@ -37,7 +72,8 @@
     font-family: Academy;
     font-weight: bold;
     font-size: 10px;
-    margin-left: 24px;
+    margin-left: 23px;
+    margin-top: 1px;
     height:32px;
     width: 383px;
     background: #c0b38b;
@@ -57,6 +93,15 @@
     cursor: pointer;
 }
 
+.menu-li-header:hover{
+    background: #9b040c;
+    opacity: 0.5;
+}
+
+.menu-li-header:hover .color-link-menu-head{
+    color: #ddddb0;
+}
+
 .menu-li-header:last-child{
     border-right: none;
 }
@@ -71,8 +116,16 @@
 
 .footer{
     text-align: center;
-    font-family: Tahoma ;
+    font-family: Tahoma;
     font-size: 9px;
     color: #93817c;
+}
+
+.head{
+    background: url("../img/top-menu.png") repeat;
+    width: 390px;
+    height: 3px;
+    margin-left: 21px;
+    margin-top: -4px;
 }
 

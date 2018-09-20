@@ -40,3 +40,12 @@
     font-weight: bold;
     color: #746d5b;
 }
+
+.bottom-line-green-and-orange{
+    background: url("../img/bottom-line.png") no-repeat;
+    height: 20px;
+    width: 400px;
+    margin-left: 22px;
+    margin-top: 15px;
+
+}

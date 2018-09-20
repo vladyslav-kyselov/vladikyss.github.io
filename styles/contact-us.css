@@ -3,12 +3,12 @@
     width: 350px;
     height: 320px;
     margin-top: 30px;
-    margin-left: 40px   ;
+    margin-left: 40px;
 }
 
 .left-content{
     width: 130px;
-    height: 320px ;
+    height: 320px;
     margin-right: 25px;
 }
 
@@ -119,6 +119,7 @@
     padding-top: 5px;
     padding-left: 5px;
     resize: none;
+    outline: none;
 }
 
 .submit-reset{
@@ -139,17 +140,34 @@
 
 
 .fast-pizza-footer{
-    background: url("../img/background-number.png") no-repeat;
-    width: 380px;
-    height: 54px;
+    background: url("../img/background-bottom.png");
+    width: 379px;
+    height: 34px;
     margin-left: 26px;
-    margin-top: 15px;
-    padding-top:10px
+    margin-top: 16px;
+    padding-top:20px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 10px 4px #3e4e30;
 }
 
 .number {
     float: right;
     width: 136px;
     height: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.really-fast-pizza{
+    margin-left: 15px;
+}
+
+.bottom-line-green-and-orange{
+    background: url("../img/bottom-line.png") no-repeat;
+    height: 20px;
+    width: 400px;
+    margin-left: 22px;
+    margin-top: 5px;
+
 }
